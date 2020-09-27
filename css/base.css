@@ -1,0 +1,121 @@
+/* 
+公共样式*/
+
+
+/* 版心 */
+
+.container {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #fff;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* header {
+    height: 80px;
+    background-color: #fd4f37;
+} */
+
+
+/* 顶部代码 */
+
+.page-top {
+    height: 40px;
+    background-color: #b0b0b0;
+}
+
+.page-top .top-litem {
+    color: 0;
+    line-height: 40px;
+    float: left;
+}
+
+.page-top .top-litem span {
+    color: #3f3f39;
+}
+
+.page-top .top-litem a:hover {
+    color: #fff;
+}
+
+
+/* .page-top .top-litem .download {
+    position: relative;
+}
+
+.page-top .top-litem .down-box {
+    position: absolute;
+    width: 126px;
+    background-color: #fff;
+    left: 50%;
+    top: 38px;
+    padding-top: 20px;
+}
+
+.page-top .top-litem image {
+    width: 88px;
+    height: 88px;
+    display: block;
+    margin: 0 aoto; 
+}*/
+
+.page-top .top-ritem {
+    float: right;
+    width: 300px;
+}
+
+.page-top .top-ritem .login {
+    color: #b0b0b0;
+    line-height: 40px;
+    float: right;
+}
+
+
+/* @font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?9szbe0');
+    src: url('../fonts/icomoon.eot?9szbe0#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?9szbe0') format('truetype'), url('fonts/icomoon.woff?9szbe0') format('woff'), url('fonts/icomoon.svg?9szbe0#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    /* font-display: block; */
+
+
+}
+*/
+/* .page-top .login i {
+    font-family: "icomoon";
+    font-style: normal;
+} */
+.page-top .login span {
+    color: #3f3f39;
+}
+.page-top .top-ritem .car-box {
+    width: 120px;
+    background-color: #424242;
+    float: right;
+    height: 40px;
+    margin-left: 25px;
+    line-height: 40px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.page-nav {
+    height: 100px;
+    background-color: #fff;
+}
+.page-nav .logo {
+    display: block;
+    float: left;
+    height: 55px;
+    width: 55px;
+    margin: 22px;
+    background: #ff6700 url(../images/mi-logo.png) cneter center no-repeat;
+}
